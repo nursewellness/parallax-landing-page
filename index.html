@@ -11,16 +11,18 @@
     <title>Nursetality | RX for RNs</title>
 </head>
 <body>
-    <section class="section-top">
-        <div class="content rellax">
-            <h1>Nursetality:  RX for RNs</h1>
-            <a href="#" class="btn">Learn More</a>
+    <section class="section section-top">
+        <div class="content rellax" data-rellax-speed="5">
+            <h1>Nursetality</h1>
+            <i class="fa-solid fa-prescription-bottle fa-3x"></i>
+            <h2>RX for RNs</h2>
+            <a href="#" class="btn btn-primary">Learn More</a>
         </div>
     </section>
         
-    <section class="section-stream">
-        <img src="./img/play-button.png" alt="" class="play rellax">
-        <div class="content rellax"></div>
+    <section class="section section-stream">
+        <img class="play rellax" src="./img/nurse.png" alt="" data-rellax-speed="-1" data-rellax-xs-speed="-5">
+        <div class="content rellax" data-rellax-speed="10"></div>
             <div>
                 <h2 class="secondary-text">Stream Everything</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -33,14 +35,48 @@
             </div>
     </section>
 
+    <section class="section section-grid">
+        <div class="rellax" data-rellax-speed="1" data-rellax-xs-speed="3">
+            <i class="fas fa-video fa-3x secondary-text"></i>
+            <h2>Watch <span class="secondary-text dot"></span>.</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Unde vel saepe dolorem excepturi molestiae dolores consequatur illo. 
+                Iusto, quasi ab!</p>
+        </div>
+        <div class="rellax" data-rellax-speed="4" data-rellax-xs-speed="3">
+            <i class="fas fa-users fa-3x secondary-text"></i>
+            <h2>Share <span class="secondary-text dot"></span>.</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Unde vel saepe dolorem excepturi molestiae dolores consequatur illo. 
+                Iusto, quasi ab!</p>
+        </div>
+        <div class="rellax" data-rellax-speed="7" data-rellax-xs-speed="3">
+            <i class="fas fa-book fa-3x secondary-text"></i>
+            <h2>Learn <span class="secondary-text dot"></span>.</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Unde vel saepe dolorem excepturi molestiae dolores consequatur illo. 
+                Iusto, quasi ab!</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy Notice</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </footer>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" 
     integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
 
     <script>
-        // Init rellax
+        let rellax = new Rellax('.rellax');
     </script>
 </body>
 </html>
