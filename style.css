@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
 
 :root {
-    --primary-color: #6930C3;
+    --primary-color: #6930c3;
     --secondary-color: #f5c42f;
     --text-color: #fff;
 }
@@ -66,13 +66,41 @@ section {
     padding: 0 20px;
 }
 
+/* Nav bar */
+
+/* Navbar styling */
+
+.navbar {
+    background-color: var(--primary-color);
+    color: #fff;
+    height: 70px;
+}
+
+.navbar ul {
+    display: flex; 
+}
+
+.navbar a {
+    color: #fff;
+    padding:  10px;
+    margin: 0 5px;
+}
+
+.navbar a:hover {
+    border-bottom: 2px #fff solid;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
 /* Section Top */
 .section-top {
-    min-height: 500px;
-    background: url('https://i.ibb.co/PhVR2Vh/bg1.png') no-repeat center center/cover; 
+    min-height: 700px;
+    background: url(./img/nursesmulti.jpeg) no-repeat center; 
     background-color: (var--primary-color);
     color: whitesmoke;
-    background-size: 150%; 
+    background-size: 125%; 
 }
 
 .section-top h1 {
@@ -85,12 +113,16 @@ section {
     top: 100px;
     right: 70px;
     width: 50%;
+    background: rgb(105, 48, 195, .5);
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
 }
 
 /* Section Stream */
 
 .section-stream {
-    min-height: 700px;
+    min-height: 500px;
     background: url('https://i.ibb.co/bsX6RV0/bg2.png') no-repeat center center/cover;
 }
 
